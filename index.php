@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" type="text/css" href="css/tema.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/menu-navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <title>SidSan Music</title>
+</head>
+<body>
+    
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
