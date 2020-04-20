@@ -54,3 +54,39 @@ body
     border: #02050e 2px solid;
     color: #02050e;
 }
+
+.input-principal
+{
+    width: 50%;
+    height: 70px;
+    display: block;
+    background: rgba(0, 0, 0, 0.767);
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 4px solid white;
+    border-right: 0;
+    color: #fff;
+    font-weight: 400;
+    font-family: Poppins,Helvetica,sans-serif;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.btnSearch-mainMenu
+{
+    width: 60px;
+    height: 70px;
+    display: block;
+    background: rgba(0, 0, 0, 0.767);
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 4px solid white;
+    border-left: 0;
+    color: #fff;
+    font-weight: 400;
+    font-family: Poppins,Helvetica,sans-serif;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 10%;
+}
