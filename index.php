@@ -26,12 +26,13 @@
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">                   
                     <div class="form-inline my-2 my-lg-0 ml-auto">
                         <span class="info-menu">
-                            <a class="mr-2">Video</a>
+                            <a class="mr-3">Beats</a>
+                            <a class="mr-3">Video</a>
                             <a>Contato</a>
                         </span>
 
-                        <button class="my-2 my-sm-0 ml-3 btn-car"><i class="fas "></i>Carrinho</button>
-                        <button class="my-2 my-sm-0 ml-3 mr-2 btn-login"><i class="fas "></i>Login</button>
+                        <button class="my-2 my-sm-0 ml-3 btn-car"><i class="fas fa-shopping-cart"></i> R$ 0,00 </button>
+                        <button class="my-2 my-sm-0 ml-3 mr-2 btn-login"></i>Login</button>
                     </div>                                 
                 </div>
             </nav>

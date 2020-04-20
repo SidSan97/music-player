@@ -1,3 +1,6 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
 body
 {
     padding: 0;
@@ -20,47 +23,34 @@ body
 
 .btn-car
 {
-    background-color: #343a40;
+    background-color: #02050e;
     color: white;
-    border: 2px solid #343a40;
+    border: 2px solid #02050e;
     height: 40px;
-    width: 80px;
+    width: auto;
+    font-weight: 600;
 }
 
 .btn-car:hover
 {
     background-color: transparent;
-    border: 2px solid turquoise;
-    color: #343a40;
+    border: 2px solid #00d8c9;
+    color: #02050e;
 }
 
 .btn-login
 {
-    background-color: turquoise;
+    background-color: #00d8c9;
     color: white;
-    border: 2px solid turquoise;
+    border: 2px solid #00d8c9;
     height: 40px;
     width: 80px;
+    font-weight: 600;
 }
 
 .btn-login:hover
 {
     background-color: transparent;
-    border: #343a40 2px solid;
-    color: #343a40;
+    border: #02050e 2px solid;
+    color: #02050e;
 }
-
-.imgbg
-{
-    background-image: url(hip.jpg) no-repeat;
-    background-size: cover;
-}
-
-/*@media(max-width: 991px)
-{
-    .info-menu a
-    {
-        display: flex;
-        flex-direction: column;
-    }
-}*/
