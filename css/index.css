@@ -1,0 +1,66 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+.menu-principal a
+{
+    font-weight: 600;
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+}
+
+.info-menu a
+{
+    font-weight: 500;
+    color: rgb(19, 18, 18);
+    font-size: 16px;
+}
+
+.btn-car
+{
+    background-color: #343a40;
+    color: white;
+    border: 2px solid #343a40;
+    height: 40px;
+    width: 80px;
+}
+
+.btn-car:hover
+{
+    background-color: transparent;
+    border: 2px solid turquoise;
+    color: #343a40;
+}
+
+.btn-login
+{
+    background-color: turquoise;
+    color: white;
+    border: 2px solid turquoise;
+    height: 40px;
+    width: 80px;
+}
+
+.btn-login:hover
+{
+    background-color: transparent;
+    border: #343a40 2px solid;
+    color: #343a40;
+}
+
+.imgbg
+{
+    background-image: url(hip.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*@media(max-width: 991px)
+{
+    .info-menu a
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}*/
