@@ -41,7 +41,7 @@
      <section class="imgbg">
          <input class="input-principal" placeholder="O que você procura hoje?">
          <button type="submit" class="btnSearch-mainMenu"><i class="fas fa-search"></i></button>
-        <img src="assets/grafite.jpg" width="100%" height="420px">
+        <img src="assets/grafite.jpg" width="100%" height="520px">
      </section>
     
     <script src="js/jquery-3.3.1.js"></script>

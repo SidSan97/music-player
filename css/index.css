@@ -70,7 +70,7 @@ body
     font-family: Poppins,Helvetica,sans-serif;
     position: absolute;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .btnSearch-mainMenu
@@ -88,5 +88,5 @@ body
     font-family: Poppins,Helvetica,sans-serif;
     position: absolute;
     margin-left: 70%;
-    margin-top: 10%;
+    margin-top: 20%;
 }
