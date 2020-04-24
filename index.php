@@ -15,7 +15,7 @@
     <title>SidSan Music</title>
 </head>
 
- <body style="background-color: black;">
+ <body>
      <section class="menu-principal">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#"> SidSan Beats</a>
@@ -47,7 +47,7 @@
      <div class="quadrado-play"> 
         <div class="btn" id="playBtn"></div>
         <div class="btn" id="pauseBtn"></div>
-    </div>
+     </div>
 
      <div id="grafico-musica">
         <div id="waveform"></div>
