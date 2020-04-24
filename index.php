@@ -43,7 +43,22 @@
          <button type="submit" class="btnSearch-mainMenu"><i class="fas fa-search"></i></button>
         <img src="assets/grafite.jpg" width="100%" height="520px">
      </section>
+
+     <div class="quadrado-play"> 
+        <div class="btn" id="playBtn"></div>
+        <div class="btn" id="pauseBtn"></div>
+    </div>
+
+     <div id="grafico-musica">
+        <div id="waveform"></div>
+        <div id="progress"></div>
+     </div>
+
+     <div>
+         teste
+     </div>
     
+    <script src="js/music-wave.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script src="js/popper.js"></script>
