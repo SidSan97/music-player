@@ -54,8 +54,46 @@
         <div id="progress"></div>
      </div>
 
-     <div>
-         teste
+     <div class="container">
+        <section id="menu-musicas-titulos">      
+          <ul>
+            <li>
+              TÍTULO
+            </li>
+            <li>
+              DURAÇÃO
+            </li>
+            <li>
+              TAGS
+            </li>
+            <li>
+              OPÇÕES
+            </li>
+          </ul>
+        </section>
+
+        <section id="menu-musicas-playlist">
+            <ul>
+                <li>             
+                    <article>     
+                        <img src="foto-albuns/dg.jpg" width="45px" height="45px">         
+                        David Guetta
+                    </article>
+
+                    <article>
+                        02:33
+                    </article>
+
+                    <article>
+                        #eletronica
+                    </article>
+
+                    <article>
+                        download
+                    </article>
+                </li>
+            </ul>
+        </section>
      </div>
     
     <script src="js/music-wave.js"></script>
