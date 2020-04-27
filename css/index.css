@@ -175,68 +175,34 @@ body
     z-index: -1;
 }
 
-#menu-musicas-titulos ul
+#menu-musicas-titulos 
 {
-    list-style: none;
-    display: flex;
-    border-bottom: 1px solid silver;
     color: rgb(68, 67, 67);
     font-weight: 600;
 }
 
-#menu-musicas-titulos ul li:first-child
+#menu-musicas-playlist 
 {
-    width: 40%;
-}
-
-#menu-musicas-titulos ul li:nth-child(2)
-{
-   width: 16%;
-}
-
-#menu-musicas-titulos ul li:nth-child(3)
-{
-    width: 16%;
-}
-
-#menu-musicas-titulos ul li:nth-child(4)
-{
-    width: 16%;
-}
-
-
-#menu-musicas-playlist ul
-{
-    list-style: none;
-    display: flex;
-    color: rgb(68, 67, 67);
+    color: rgb(32, 32, 32);
     font-weight: 600;
 }
 
-#menu-musicas-playlist ul li
+#menu-musicas-playlist span
 {
-    width: 100%;
-    display: flex;
-    border-bottom: 1px solid silver;
+    color: #02050e;
+    font-size: 13px;
+    margin-right: 4%;
 }
 
-#menu-musicas-playlist ul li article:first-child
+.btn-car-add
 {
-    width: 40%;
+    background-color: #02050e;
+    color: white;
+    border: 2px solid #02050e;
+    height: auto;
+    width: auto;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 5px;
 }
 
-#menu-musicas-playlist ul li article:nth-child(2)
-{
-   width: 16%;
-}
-
-#menu-musicas-playlist ul li article:nth-child(3)
-{
-    width: 16%;
-}
-
-#menu-musicas-playlist ul li article:nth-child(4)
-{
-    width: 16%;
-    text-align: right;
-}
