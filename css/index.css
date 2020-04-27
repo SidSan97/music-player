@@ -40,9 +40,8 @@ body
 
 .btn-car:hover
 {
-    background-color: transparent;
-    border: 2px solid #00d8c9;
-    color: #02050e;
+    border-color: #02050e;
+    background-color: #00d8c9;
 }
 
 .btn-login
@@ -57,9 +56,8 @@ body
 
 .btn-login:hover
 {
-    background-color: transparent;
-    border: #02050e 2px solid;
-    color: #02050e;
+    border-color: #00d8c9;
+    background-color: #02050e;
 }
 
 .input-principal
@@ -205,6 +203,11 @@ body
     text-align: center;
 }
 
+#menu-musicas-playlist
+{
+    margin-bottom: 2%;
+}
+
 #menu-musicas-playlist li
 {
     height: 44px;
@@ -262,5 +265,22 @@ body
     font-size: 12px;
     padding: 5px;
     margin-left: 5%;
+}
+
+#btn-AllAudio
+{
+    background-color: #00d8c9;
+    border: 2px solid #00d8c9;
+    color: white;
+    height: 44px;
+    width: 200px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#btn-AllAudio:hover
+{
+    border-color: #00d8c9;
+    background-color: #02050e;
 }
 

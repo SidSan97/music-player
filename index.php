@@ -99,9 +99,67 @@
                         </button>
                     </article>
                 </li>
+
+                <li> 
+                    <article>                 
+                        <img src="foto-albuns/dg.jpg" width="44px" height="44px">
+                        David Guetta
+                    </article>
+                    <article>03:25</article>
+                    <article>Eletronica</article>
+                    <article>
+                        <i class="fas fa-share-alt"></i>
+                        <i class="fas fa-download"></i>
+                        <button class="btn-car-add">
+                            ADD <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </article>
+                </li>
+
+                <li> 
+                    <article>                 
+                        <img src="foto-albuns/dg.jpg" width="44px" height="44px">
+                        David Guetta
+                    </article>
+                    <article>03:25</article>
+                    <article>Eletronica</article>
+                    <article>
+                        <i class="fas fa-share-alt"></i>
+                        <i class="fas fa-download"></i>
+                        <button class="btn-car-add">
+                            ADD <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </article>
+                </li>
+
+                <li> 
+                    <article>                 
+                        <img src="foto-albuns/dg.jpg" width="44px" height="44px">
+                        David Guetta
+                    </article>
+                    <article>03:25</article>
+                    <article>Eletronica</article>
+                    <article>
+                        <i class="fas fa-share-alt"></i>
+                        <i class="fas fa-download"></i>
+                        <button class="btn-car-add">
+                            ADD <i class="fas fa-shopping-cart"></i>
+                        </button>
+                    </article>
+                </li>
             </ul>
         </section>     
      </div>
+
+     <div style="display: flex; justify-content: center; margin-bottom: 5%;">
+        <button id="btn-AllAudio">
+            TODAS AS MÚSICAS
+        </button>
+     </div>
+
+     <section class="informacao">
+         
+     </section>
     
     <script src="js/music-wave.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
