@@ -56,62 +56,51 @@
 
      <div class="container">
         <section id="menu-musicas-titulos">      
-         <div class="row">
-             <div class="col-4"> TÍTULO </div>
-             <div class="col"> DURAÇÃO </div>
-             <div class="col"> GENÊRO </div>
-             <div class="col-3"> OPÇÕES </div>
-         </div>
+            <ul>
+                <li>
+                    <article>TÍTULO</article>
+                    <article>DURAÇÃO</article>
+                    <article>GENÊRO</article>
+                    <article>OPÇÕES</article>
+                </li>
+            </ul>
         </section>
-
-        <hr>
 
         <section id="menu-musicas-playlist">
-            <div class="row" style="border-bottom: 1px solid rgba(127,127,127,.1)">
-                <div class="col-4">
-                    <img src="foto-albuns/dg.jpg" height="45px" width="45px">
-                    David Guetta
-                </div>
-                <div class="col">03:50</div>
-                <div class="col">eletronico</div>
-                <div class="col-3">
-                    <span><i class="fas fa-download"></i></span>
-                    <button class="btn-car-add">
-                        ADD <i class="fas fa-shopping-cart"></i>
-                    </button>
-                </div>
-            </div>
-
-            <div class="row" style="border-bottom: 1px solid rgba(127,127,127,.1)">
-                <div class="col-4">
-                    <img src="foto-albuns/dg.jpg" height="45px" width="45px">
-                    David Guetta
-                </div>
-                <div class="col mt-2">03:50</div>
-                <div class="col mt-2">eletronico</div>
-                <div class="col-3 mt-2">
-                    <span><i class="fas fa-download"></i></span>
+            <ul>
+                <li> 
+                    <article>                 
+                        <img src="foto-albuns/dg.jpg" width="44px" height="44px">
+                        David Guetta
+                    </article>
+                    <article>03:25</article>
+                    <article>Eletronica</article>
+                    <article>
+                        <i class="fas fa-share-alt"></i>
+                        <i class="fas fa-download"></i>
                         <button class="btn-car-add">
                             ADD <i class="fas fa-shopping-cart"></i>
                         </button>
-                </div>
-            </div>
+                    </article>
+                </li>
 
-            <div class="row" style="border-bottom: 1px solid rgba(127,127,127,.1)">
-                <div class="col-4">
-                    <img src="foto-albuns/dg.jpg" height="45px" width="45px">
-                    David Guetta
-                </div>
-                <div class="col mt-2">03:50</div>
-                <div class="col mt-2">eletronico</div>
-                <div class="col-3 mt-2">
-                    <span><i class="fas fa-download"></i></span>
+                <li> 
+                    <article>                 
+                        <img src="foto-albuns/dg.jpg" width="44px" height="44px">
+                        David Guetta
+                    </article>
+                    <article>03:25</article>
+                    <article>Eletronica</article>
+                    <article>
+                        <i class="fas fa-share-alt"></i>
+                        <i class="fas fa-download"></i>
                         <button class="btn-car-add">
                             ADD <i class="fas fa-shopping-cart"></i>
                         </button>
-                </div>
-            </div>
-        </section>
+                    </article>
+                </li>
+            </ul>
+        </section>     
      </div>
     
     <script src="js/music-wave.js"></script>
