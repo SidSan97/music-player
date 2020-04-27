@@ -67,7 +67,7 @@
         <hr>
 
         <section id="menu-musicas-playlist">
-            <div class="row" style="border-bottom: 1px solid silver">
+            <div class="row" style="border-bottom: 1px solid rgba(127,127,127,.1)">
                 <div class="col-4">
                     <img src="foto-albuns/dg.jpg" height="45px" width="45px">
                     David Guetta
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="row" style="border-bottom: 1px solid silver">
+            <div class="row" style="border-bottom: 1px solid rgba(127,127,127,.1)">
                 <div class="col-4">
                     <img src="foto-albuns/dg.jpg" height="45px" width="45px">
                     David Guetta
@@ -97,22 +97,7 @@
                 </div>
             </div>
 
-            <div class="row" style="border-bottom: 1px solid silver">
-                <div class="col-4">
-                    <img src="foto-albuns/dg.jpg" height="45px" width="45px">
-                    David Guetta
-                </div>
-                <div class="col mt-2">03:50</div>
-                <div class="col mt-2">eletronico</div>
-                <div class="col-3 mt-2">
-                    <span><i class="fas fa-download"></i></span>
-                        <button class="btn-car-add">
-                            ADD <i class="fas fa-shopping-cart"></i>
-                        </button>
-                </div>
-            </div>
-
-            <div class="row" style="border-bottom: 1px solid silver">
+            <div class="row" style="border-bottom: 1px solid rgba(127,127,127,.1)">
                 <div class="col-4">
                     <img src="foto-albuns/dg.jpg" height="45px" width="45px">
                     David Guetta
