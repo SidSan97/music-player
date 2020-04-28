@@ -153,12 +153,68 @@
 
      <div style="display: flex; justify-content: center; margin-bottom: 5%;">
         <button id="btn-AllAudio">
-            TODAS AS MÚSICAS
+            TODOS OS BEATS
         </button>
      </div>
 
-     <section class="informacao">
-         
+     <section id="informacao">
+         <h2 class="tit-info">Licenciamento</h2>
+
+         <div class="container">
+            <div class="row">
+                <div class="col-lg mb-4 div-info">
+                    <span>
+                       <h5>Licença MP3</h5> 
+                       <h2>R$ 90,00</h2>
+                       <p>POR UNIDADE</p>
+                    </span>
+
+                    <span>
+                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
+                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
+                    </span>
+                </div>
+
+                <div class="col-lg mb-4 div-info">
+                    <span>
+                       <h5>Licença MP3</h5>
+                       <h2>R$ 90,00</h2>
+                       <p>POR UNIDADE</p>
+                    </span>
+
+                    <span>
+                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
+                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
+                    </span>
+                </div>
+
+                <div class="col-lg mb-4 div-info">
+                    <span>
+                       <h5>Licença MP3</h5>
+                       <h2>R$ 90,00</h2>
+                       <p>POR UNIDADE</p>
+                    </span>
+
+                    <span>
+                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
+                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
+                    </span>
+                </div>
+
+                <div class="col-lg mb-4 div-info">
+                    <span>
+                       <h5>Licença MP3</h5>
+                       <h2>R$ 90,00</h2>
+                       <p>POR UNIDADE</p>
+                    </span>
+
+                    <span>
+                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
+                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
+                    </span>
+                </div>
+            </div>
+         </div>
      </section>
     
     <script src="js/music-wave.js"></script>
