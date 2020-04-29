@@ -179,7 +179,7 @@
 
                     <article>
                         <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
-                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                        <h3 class="texto-promo mt-3">COMPRE 1, OUTRO É GRÁTIS</h3>                      
                     </article>
                 </div>
 
@@ -200,7 +200,7 @@
 
                     <article>
                         <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
-                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                        <h3 class="texto-promo mt-3">COMPRE 1, OUTRO É GRÁTIS</h3>                      
                     </article>
                 </div>
 
@@ -221,7 +221,7 @@
 
                     <article>
                         <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
-                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                        <h3 class="texto-promo mt-3">COMPRE 1, OUTRO É GRÁTIS</h3>                      
                     </article>
                 </div>
 
@@ -242,7 +242,7 @@
 
                     <article>
                         <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
-                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                        <h3 class="texto-promo mt-3">COMPRE 1, OUTRO É GRÁTIS</h3>                      
                     </article>
                 </div>
             </div>
