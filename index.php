@@ -163,55 +163,87 @@
          <div class="container">
             <div class="row">
                 <div class="col-lg mb-4 div-info">
-                    <span>
+                    <article>
                        <h5>Licença MP3</h5> 
                        <h2>R$ 90,00</h2>
-                       <p>POR UNIDADE</p>
-                    </span>
+                       <h6>POR UNIDADE</h6>
+                    </article>
 
-                    <span>
-                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
-                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
-                    </span>
+                    <article>
+                        <p><i class="fas fa-circle"></i> <span>MP3 sem etiqueta </span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Venda até 3.000 unidades</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Use para streaming, mixtapes e álbuns</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>SidSan Music mantém a propriedade total do instrumental</span></p>
+                        <div class="div-licenca"><button class="btn-licenca">Ler Licença</button></div>                           
+                    </article>
+
+                    <article>
+                        <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
+                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                    </article>
                 </div>
 
                 <div class="col-lg mb-4 div-info">
-                    <span>
+                    <article>
                        <h5>Licença MP3</h5>
                        <h2>R$ 90,00</h2>
-                       <p>POR UNIDADE</p>
-                    </span>
+                       <h6>POR UNIDADE</h6>
+                    </article>
 
-                    <span>
-                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
-                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
-                    </span>
+                    <article>
+                        <p><i class="fas fa-circle"></i> <span>MP3 sem etiqueta </span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Venda até 3.000 unidades</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Use para streaming, mixtapes e álbuns</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>SidSan Music mantém a propriedade total do instrumental</span></p>
+                        <div class="div-licenca"><button class="btn-licenca">Ler Licença</button></div>                          
+                    </article>
+
+                    <article>
+                        <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
+                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                    </article>
                 </div>
 
                 <div class="col-lg mb-4 div-info">
-                    <span>
+                    <article>
                        <h5>Licença MP3</h5>
                        <h2>R$ 90,00</h2>
-                       <p>POR UNIDADE</p>
-                    </span>
+                       <h6>POR UNIDADE</h6>
+                    </article>
 
-                    <span>
-                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
-                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
-                    </span>
+                    <article>
+                        <p><i class="fas fa-circle"></i> <span>MP3 sem etiqueta </span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Venda até 3.000 unidades</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Use para streaming, mixtapes e álbuns</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>SidSan Music mantém a propriedade total do instrumental</span></p>
+                        <div class="div-licenca"><button class="btn-licenca">Ler Licença</button></div>                           
+                    </article>
+
+                    <article>
+                        <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
+                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                    </article>
                 </div>
 
                 <div class="col-lg mb-4 div-info">
-                    <span>
+                    <article>
                        <h5>Licença MP3</h5>
                        <h2>R$ 90,00</h2>
-                       <p>POR UNIDADE</p>
-                    </span>
+                       <h6>POR UNIDADE</h6>
+                    </article>
 
-                    <span>
-                        <i class="fas fa-circle"></i> MP3 sem etiqueta <br>
-                        <i class="fas fa-circle"></i> Venda até 3.000 unidades
-                    </span>
+                    <article>
+                        <p><i class="fas fa-circle"></i> <span>MP3 sem etiqueta </span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Venda até 3.000 unidades</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>Use para streaming, mixtapes e álbuns</span></p> 
+                        <p><i class="fas fa-circle"></i> <span>SidSan Music mantém a propriedade total do instrumental</span></p>
+                        <div class="div-licenca"><button class="btn-licenca">Ler Licença</button></div>                           
+                    </article>
+
+                    <article>
+                        <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
+                        <h3 class="texto-promo">Compre 1, outro é grátis</h3>                      
+                    </article>
                 </div>
             </div>
          </div>
