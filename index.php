@@ -161,7 +161,7 @@
          <h2 class="tit-info">Licenciamento</h2>
 
          <div class="container">
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-lg mb-4 div-info">
                     <article>
                        <h5>Licença MP3</h5> 
@@ -244,6 +244,43 @@
                         <span><i class="fas fa-tag text-light"></i>OFERTA DO DIA</span> <br>
                         <h3 class="texto-promo mt-3">COMPRE 1, OUTRO É GRÁTIS</h3>                      
                     </article>
+                </div>
+            </div>
+
+            <div id="contato">
+                <div class="row">  
+
+                    <div class="col-lg-4 mb-5"><h3 align="left">Contato</h3></div>
+                    <div class="col-lg">             
+                        <form action="" method="POST" name="contato-form">
+                            <div class="row mb-3">
+                                <div class="col-lg-6 mb-3">
+                                    <label for="email">Informe seu nome</label>
+                                    <input type="text" name="nome" id="nome" class="col">
+                                </div> 
+
+                                <div class="col-lg-6">                      
+                                    <label for="email">Informe seu email</label> 
+                                    <input type="email" name="email" id="email"class="col">
+                                </div>
+                            </div> 
+                            
+                            <div class="row mb-3">
+                                <div class="col-lg">
+                                    <label for="assunto">Assunto</label>
+                                    <input type="text" name="assunto" id="assunto">
+                               </div>
+                            </div>  
+                            
+                            <div class="row mb-3">
+                                <div class="col-lg">
+                                    <label for="msg">Assunto</label>
+                                    <textarea name="msg" id="msg" cols="" rows="5"></textarea>
+                                </div>
+                            </div>              
+                        </form>
+                    </div>
+
                 </div>
             </div>
          </div>
