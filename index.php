@@ -249,7 +249,6 @@
 
             <div id="contato">
                 <div class="row">  
-
                     <div class="col-lg-4 mb-5"><h3 align="left">Contato</h3></div>
                     <div class="col-lg">             
                         <form action="" method="POST" name="contato-form">
@@ -274,18 +273,26 @@
                             
                             <div class="row mb-3">
                                 <div class="col-lg">
-                                    <label for="msg">Assunto</label>
+                                    <label for="msg">Menssagem</label>
                                     <textarea name="msg" id="msg" cols="" rows="5"></textarea>
                                 </div>
                             </div>              
                         </form>
                     </div>
-
                 </div>
             </div>
          </div>
      </section>
     
+    <div id="progress-bar">
+
+    </div>
+
+    <div id="painel-player">
+        <img src="foto-albuns/dg.jpg"> <p>David Guetta</p>
+        <button id="btn-listSong"><i class="fas fa-list"></i></button>
+    </div>
+
     <script src="js/music-wave.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
