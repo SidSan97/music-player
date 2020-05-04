@@ -291,6 +291,12 @@
     <div id="painel-player">
         <img src="foto-albuns/dg.jpg"> <p>David Guetta</p>
         <button id="btn-listSong"><i class="fas fa-list"></i></button>
+        <button id="btn-shareSong"><i class="fas fa-share-alt"></i></button>
+            <input type="image" value="" src="assets/som-anterior" width="30px" height="30px" class="pass-song">
+            <button class="btn-play"><i class="fas fa-play"></i></button>
+            <input type="image" value="" src="assets/proximo-som" width="30px" height="30px" class="pass-song">
+            <div id="timer">0:00</div>
+            <button id="btn-volume"><i class="fas fa-volume-up"></i></button>
     </div>
 
     <script src="js/music-wave.js"></script>
