@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/all.css">
     <link rel="stylesheet" type="text/css" href="css/menu-navbar.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!link rel="stylesheet" href="css/styles.css">
 
     <title>SidSan Music</title>
 </head>
@@ -50,8 +51,9 @@
      </div>
 
      <div id="grafico-musica">
-        <div id="waveform"></div>
-        <div id="progress"></div>
+          <div id="waveform"></div>
+          <div id="bar"></div>
+          <div id="progress"></div>
      </div>
 
      <div class="container">
@@ -288,18 +290,64 @@
 
     </div>
 
+    <!--div id="painel-player">
+        <img src="foto-albuns/dg.jpg"> <p id="track"></p>
+        
+      <div id="playlist">
+        <div id="list"></div>
+      </div>
+
+      
+      <div id="volume" class="fadeout">
+        <div id="barFull" class="bar"></div>
+        <div id="barEmpty" class="bar"></div>
+        <div id="sliderBtn"></div>
+      </div>
+
+      <div class="controlsOuter">
+        <div class="controlsInner">
+          <div id="loading"></div>
+          <button class="btn_play"><i class="fas fa-play"></i></button>
+          <div class="btn" id="pauseBtn"></div>
+          <input type="image" value="" src="assets/som-anterior" width="30px" height="30px" class="pass-song" id="prevBtn">
+          <input type="image" value="" src="assets/proximo-som" width="30px" height="30px" class="pass-song" id="nextBtn">
+        </div>
+        <div class="btn" id="playlistBtn"></div>
+        <div id="timer">0:00</div>
+        <div class="btn" id="volumeBtn"></div>
+        <div id="duration">0:00</div>
+      </div>
+    </div-->
+
     <div id="painel-player">
-        <img src="foto-albuns/dg.jpg"> <p>David Guetta</p>
-        <button id="btn-listSong"><i class="fas fa-list"></i></button>
-        <button id="btn-shareSong"><i class="fas fa-share-alt"></i></button>
-            <input type="image" value="" src="assets/som-anterior" width="30px" height="30px" class="pass-song">
-            <button class="btn-play"><i class="fas fa-play"></i></button>
-            <input type="image" value="" src="assets/proximo-som" width="30px" height="30px" class="pass-song">
-            <div id="timer">0:00</div>
-            <button id="btn-volume"><i class="fas fa-volume-up"></i></button>
+        <img src="foto-albuns/dg.jpg"> <p id="track">David Guetta</p>
+
+       <button id="btn-shareSong"><i class="fas fa-share-alt"></i></button>
+       <button id="btn_repeat"><i class="fas fa-redo"></i></button>
+
+       <div id="volume" class="fadeout" style="background-color: black; ">
+        <div id="barFull" class="bar"></div>
+        <div id="barEmpty" class="bar"></div>
+        <div id="sliderBtn"></div>
+      </div> 
+
+      <input type="image" value="" src="assets/som-anterior.png" width="30px" height="30px" class="pass-song" id="prevBtn">
+      <button class="btn_play" id="playBtn1"><i class="fas fa-play"></i></button>
+      <input type="image" value="" src="assets/proximo-som.png" width="30px" height="30px" class="pass-song" id="nextBtn"> 
+
+        <div><button class="btn" id="playlistBtn"><i class="fas fa-list"></i></button></div>
+        <div id="timer">0:00</div> <span id="barraTimer"> - </span>
+        <div class="btn" id="volumeBtn"></div>
+        <div id="duration">0:00</div>  
     </div>
 
-    <script src="js/music-wave.js"></script>
+     <div id="playlist">
+        <div id="list"></div>
+    </div> 
+
+    <script src="src/howler.core.js"></script>
+    <script src="siriwave.js"></script>
+    <script src="player.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script src="js/popper.js"></script>
