@@ -344,10 +344,6 @@
         <div id="currentTime">00:00 / 00:00</div>  
     </div>
 
-    <!--div id="playlist">
-        <div id="list"></div>
-    </div--> 
-
     <script src="src/howler.core.js"></script>
     <script src="siriwave.js"></script>
     <script src="player.js"></script>
