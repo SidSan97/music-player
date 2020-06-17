@@ -46,7 +46,7 @@
      </section>
 
      <div class="quadrado-play"> 
-        <img src="foto-albuns/dg.jpg">
+        <img id="bg2" src="foto-albuns/Poster1.jpg">
         <div class="btn" id="playBtn"></div>
         <div class="btn" id="pauseBtn"></div>
      </div>
@@ -287,66 +287,27 @@
          </div>
      </section>
 
-    <!--div id="painel-player">
-        <img src="foto-albuns/dg.jpg"> <p id="track"></p>
-        
-      <div id="playlist">
-        <div id="list"></div>
-      </div>
-
-      
-      <div id="volume" class="fadeout">
-        <div id="barFull" class="bar"></div>
-        <div id="barEmpty" class="bar"></div>
-        <div id="sliderBtn"></div>
-      </div>
-
-      <div class="controlsOuter">
-        <div class="controlsInner">
-          <div id="loading"></div>
-          <button class="btn_play"><i class="fas fa-play"></i></button>
-          <div class="btn" id="pauseBtn"></div>
-          <input type="image" value="" src="assets/som-anterior" width="30px" height="30px" class="pass-song" id="prevBtn">
-          <input type="image" value="" src="assets/proximo-som" width="30px" height="30px" class="pass-song" id="nextBtn">
-        </div>
-        <div class="btn" id="playlistBtn"></div>
-        <div id="timer">0:00</div>
-        <div class="btn" id="volumeBtn"></div>
-        <div id="duration">0:00</div>
-      </div>
-    </div-->
     <div id="seek-bar">
         <div id="fill"></div>
         <div id="handle"></div>
     </div>
     
     <div id="painel-player">
-        <img src="foto-albuns/dg.jpg"> <p id="track">David Guetta</p>
+       <img id="bg" src="foto-albuns/Poster1.jpg"> <p id="songTitle"></p>
 
        <button id="btn-shareSong"><i class="fas fa-share-alt"></i></button>
-       <button id="btn_repeat"><i class="fas fa-redo"></i></button>
-
-       <!--div id="volume" class="fadeout" style="background-color: black; ">
-        <div id="barFull" class="bar"></div>
-        <div id="barEmpty" class="bar"></div>
-        <div id="sliderBtn"></div>
-      </div--> 
+       <button id="btn_repeat"><i class="fas fa-redo"></i></button>    
 
       <input type="image" value="" onclick="previousSong()" src="assets/som-anterior.png" width="30px" height="30px" class="pass-song" id="prev">
       <button class="btn_play" id="play" onclick="playOrPauseSong()"><i class="fas fa-play"></i></button>
-      <!--button class="btn_pause" id="pauseBtn2"><i class="fas fa-pause"></i></button-->
       <input type="image" value="" onclick="nextSong()" src="assets/proximo-som.png" width="30px" height="30px" class="pass-song" id="next"> 
 
-        <!--div><button class="btn" id="playlistBtn"><i class="fas fa-list"></i></button></div-->
-        <!--div id="timer">0:00</div> <span id="barraTimer"> - </span>
-        <!--div class="btn" id="volumeBtn"></div-->
-        <!--div id="duration">0:00</div-->
         <div id="currentTime">00:00 / 00:00</div>  
     </div>
 
     <script src="src/howler.core.js"></script>
     <script src="siriwave.js"></script>
-    <script src="player.js"></script>
+    <script src="js/player.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
     <script src="js/popper.js"></script>
