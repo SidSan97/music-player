@@ -1,8 +1,8 @@
 //Cria um array com o nome das músicas
-let musics = ["Sabotage - Canal Bom", "19 The Miracle (Of Joey Ramone) - U2.mp3", "Prismo Weakness - NCS Release.mp3", "Nothing is impossible - Planet Shakes.mp3"];
+let musics = ["Sabotage - Canal Bom", "Xxxtentacion - Look at me", "Ali Bomaye", "TOER - Build 7600", "DRE - Still"];
 
 //Cria um array com a capa das músicas
-let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns/Poster3.jpg", "foto-albuns/Poster4.jpg"];
+let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns/Poster3.jpg", "foto-albuns/Poster4.jpg", "foto-albuns/Poster5.jpg"];
 
 let songTitle = document.querySelector("#songTitle");
 
