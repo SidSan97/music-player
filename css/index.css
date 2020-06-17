@@ -425,8 +425,8 @@ body
     display: flex;
     border-radius: 50px;
     margin-left: 0%;
-    margin-bottom: 0.5px;
-    margin-top: 0.5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     cursor: pointer;
     z-index: 99;
 }
@@ -445,7 +445,7 @@ body
     height: 8px;
     background: royalblue;
     border-radius: 50%;
-    margin-left: -5px;
+    margin-left: 2px;
     transform: scale(2);
     z-index: 99;
 }
@@ -507,7 +507,7 @@ body
     background-color: #00d8c9;
     border: none;
     padding: 1px;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-right: 2%;
 }
 
@@ -544,8 +544,7 @@ body
     margin-right: 2%;
 }
 
-
-#timer 
+#currentTime
 {
     font-size: 26px;
     opacity: 0.9;
@@ -553,23 +552,6 @@ body
     color: rgb(7, 7, 7);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.33);
     margin-top: 15px;
-}
-
-#duration
-{
-    font-size: 26px;
-    opacity: 0.9;
-    font-weight: 300;
-    color: rgb(7, 7, 7);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.33);
-    margin-top: 15px;
-}
-
-#barraTimer
-{
-    margin-right: 1%;
-    margin-left: 1%;
-    margin-top: 20px;
 }
 
 /* Plylist *//*
