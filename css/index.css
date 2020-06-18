@@ -156,6 +156,7 @@ body
 {
     background: transparent;
     border: none;
+    position: absolute
 }
 
 #waveform 

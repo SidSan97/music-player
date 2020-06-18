@@ -49,7 +49,7 @@
      <div class="quadrado-play"> 
         <img id="bg2" class="bg2" src="foto-albuns/Poster1.jpg">
        
-        <button  class="btn_play1" id="play2" onclick="playOrPauseSong()" style="position: absolute;">
+        <button  class="btn_play1" id="play2" onclick="playOrPauseSong()">
             <img src="Play.png" width="80px" height="80px">
         </button>
      </div>
