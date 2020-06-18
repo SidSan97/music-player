@@ -5,6 +5,7 @@ let musics = ["Sabotage - Canal foi tão bom.mp3", "Xxxtentacion - Look at me.mp
 let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns/Poster3.jpg", "foto-albuns/Poster4.jpg", "foto-albuns/Poster5.jpg"];
 
 let songTitle = document.querySelector("#songTitle");
+let songTitle2 = document.querySelector("#songTitle2");
 
 let fillbar = document.querySelector("#fill");
 
@@ -14,7 +15,7 @@ let song = new Audio();
 let currentSong = 0;
 
 let title_page = document.getElementsByTagName("title")[0];
-let iconePlay = document.querySelector("#play img");
+let iconePlay = document.querySelector("#play2 img");
 let bgImg = document.querySelector("#bg");
 let bgImg2 = document.querySelector("#bg2");
 let posterSong = document.querySelector("#image");
@@ -27,6 +28,7 @@ let volume_now = song.volume;
 function playSong() {
   song.src = musics[currentSong];
   songTitle.textContent = musics[currentSong].replace('.mp3', "");
+  songTitle2.textContent = musics[currentSong].replace('.mp3', "");
   //song.play();
   title_page.text = "Tocando agora - " + musics[currentSong];
 }
