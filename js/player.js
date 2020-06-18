@@ -16,6 +16,7 @@ let currentSong = 0;
 
 let title_page = document.getElementsByTagName("title")[0];
 let iconePlay = document.querySelector("#play2 img");
+let iconePlay1 = document.querySelector("#play img");
 let bgImg = document.querySelector("#bg");
 let bgImg2 = document.querySelector("#bg2");
 let posterSong = document.querySelector("#image");
@@ -39,6 +40,7 @@ function playOrPauseSong() {
     //toca a música e muda seus ícones
     song.play();
     iconePlay.src = "Pause.png";
+    iconePlay1.src = "Pause1.png";
     console.log("Música tocando");
   }
 
@@ -46,7 +48,8 @@ function playOrPauseSong() {
     //Caso a primeira condição não seja atendida,
     //parte para o ELSE e pausa a música realizando a troca dos icones
     song.pause();
-    iconePlay.src = "Play.png"
+    iconePlay.src = "Play.png";
+    iconePlay1.src = "Play1.png";
     console.log("Música pausada");
   }
 }
