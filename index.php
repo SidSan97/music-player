@@ -306,7 +306,9 @@
        <button id="btn_repeat"><i class="fas fa-redo"></i></button>    
 
       <input type="image" value="" onclick="previousSong()" src="assets/som-anterior.png" width="30px" height="30px" class="pass-song" id="prev">
-      <button class="btn_play" id="play" onclick="playOrPauseSong()"><i class="fas fa-play"></i></button>
+      <button class="btn_play" id="play" onclick="playOrPauseSong()">
+        <img src="Play1.png">
+      </button>
       <input type="image" value="" onclick="nextSong()" src="assets/proximo-som.png" width="30px" height="30px" class="pass-song" id="next"> 
 
         <div id="currentTime">00:00 / 00:00</div>  
