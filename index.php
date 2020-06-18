@@ -122,7 +122,7 @@
                 <li> 
                     <article>                 
                         <img src="foto-albuns/Poster4.jpg" width="44px" height="44px">
-                        TOER - Build 7600 (Workin' Hard)
+                        TOER - Build 7600 
                     </article>
                     <article>03:25</article>
                     <article>Eletronica</article>
@@ -279,7 +279,11 @@
                                     <label for="msg">Menssagem</label>
                                     <textarea name="msg" id="msg" cols="" rows="5"></textarea>
                                 </div>
-                            </div>              
+                            </div> 
+                            
+                            <button id="btn-AllAudio" class="mb-3">
+                                ENVIAR
+                            </button>
                         </form>
                     </div>
                 </div>
