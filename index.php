@@ -42,13 +42,16 @@
      <section class="imgbg">
          <input class="input-principal" placeholder="O que você procura hoje?">
          <button type="submit" class="btnSearch-mainMenu"><i class="fas fa-search"></i></button>
+         <h3 id="songTitle2" class="titleSongMain"></h3>
         <img src="assets/grafite.jpg" width="100%" height="520px">
      </section>
 
      <div class="quadrado-play"> 
-        <img id="bg2" src="foto-albuns/Poster1.jpg">
-        <div class="btn" id="playBtn"></div>
-        <div class="btn" id="pauseBtn"></div>
+        <img id="bg2" class="bg2" src="foto-albuns/Poster1.jpg">
+       
+        <button  class="btn_play1" id="play2" onclick="playOrPauseSong()" style="position: absolute;">
+            <img src="Play.png" width="80px" height="80px">
+        </button>
      </div>
 
      <div id="grafico-musica">
