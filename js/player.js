@@ -1,5 +1,5 @@
 //Cria um array com o nome das músicas
-let musics = ["Sabotage - Canal Bom", "Xxxtentacion - Look at me", "Ali Bomaye", "TOER - Build 7600", "DRE - Still"];
+let musics = ["Sabotage - Canal foi tão bom.mp3", "Xxxtentacion - Look at me.mp3", "Ali Bomaye.mp3", "TOER - Build 7600.mp3", "DRE - Still.mp3"];
 
 //Cria um array com a capa das músicas
 let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns/Poster3.jpg", "foto-albuns/Poster4.jpg", "foto-albuns/Poster5.jpg"];
@@ -26,8 +26,8 @@ let volume_now = song.volume;
 
 function playSong() {
   song.src = musics[currentSong];
-  songTitle.textContent = musics[currentSong];
-  song.play();
+  songTitle.textContent = musics[currentSong].replace('.mp3', "");
+  //song.play();
   title_page.text = "Tocando agora - " + musics[currentSong];
 }
 
