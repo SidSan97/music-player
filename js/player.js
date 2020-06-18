@@ -104,7 +104,8 @@ function nextSong() {
 
   playSong();
   iconePlay.src = "Play.png";
-    iconePlay1.src = "Play1.png";
+  iconePlay1.src = "Play1.png";
+  
   //Troca imagens do fundo e do poster
   bgImg.src = poster[currentSong];
   bgImg2.src = poster[currentSong];
@@ -125,7 +126,7 @@ function previousSong() {
 
   playSong();
   iconePlay.src = "Play.png";
-    iconePlay1.src = "Play1.png";
+  iconePlay1.src = "Play1.png";
 
   //Troca imagens do fundo e do poster
   bgImg.src = poster[currentSong];
