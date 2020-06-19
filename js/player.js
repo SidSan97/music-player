@@ -1,11 +1,15 @@
 //Cria um array com o nome das músicas
 let musics = ["Canal foi tão bom.mp3", "Look at me.mp3", "Ali Bomaye.mp3", "Build 7600.mp3", "Still.mp3"];
 
+//Cria um array com nome dos artistas
+let artistis = ["SABOTAGE", "XXXTENTACION", "THE GAME", "TOER", "DRE"];
+
 //Cria um array com a capa das músicas
 let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns/Poster3.jpg", "foto-albuns/Poster4.jpg", "foto-albuns/Poster5.jpg"];
 
-let songTitle = document.querySelector("#songTitle");
-let songTitle2 = document.querySelector("#songTitle2");
+let songTitle    = document.querySelector("#songTitle");
+let songTitle2   = document.querySelector("#songTitle2");
+let subSongTitle = document.querySelector("#subSongTitle");
 
 let fillbar = document.querySelector("#fill");
 
@@ -30,6 +34,7 @@ function playSong() {
   song.src = musics[currentSong];
   songTitle.textContent = musics[currentSong].replace('.mp3', "");
   songTitle2.textContent = musics[currentSong].replace('.mp3', "");
+  subSongTitle.textContent = artistis[currentSong];
   //song.play();
   title_page.text = "Tocando agora - " + musics[currentSong];
 }

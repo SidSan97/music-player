@@ -305,7 +305,7 @@
             <img id="bg" src="foto-albuns/Poster1.jpg"> 
             <span> 
                 <h5 id="songTitle"></h5> 
-                <h6>SABOTAGE</h6>
+                <h6 id="subSongTitle">SABOTAGE</h6>
             </span>
           </li>
 
@@ -316,10 +316,12 @@
 
           <li>
             <input type="image" value="" onclick="previousSong()" src="assets/som-anterior.png" width="30px" height="30px" class="pass-song" id="prev">
+            
             <button class="btn_play" id="play" onclick="playOrPauseSong()">
                 <img src="Play1.png">
             </button>
-            <input type="image" value="" onclick="nextSong()" src="assets/proximo-som.png" width="30px" height="30px" class="pass-song" id="next"> 
+
+            <input type="image" value="" onclick="nextSong()" src="assets/proximo-som.png" width="30px" height="30px" class="pass-song" id="next">            
           </li>
 
           <li>

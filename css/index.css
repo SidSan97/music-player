@@ -458,14 +458,13 @@ body
 #bg
 {
     width: 80px;
-    margin-right: 1%;
+    margin-right: 3%;
 }
 
 #painel-player ul
 {
     list-style: none; 
     display: flex; 
-    border:black 1px solid; 
     margin: 0; padding: 0; 
     width: 100%;
 }
@@ -478,20 +477,18 @@ body
 #painel-player ul li:first-child
 {
     width: 30%; 
-    border: blue 1px solid; 
     display: flex;
 }
 
 #painel-player ul li:nth-child(2)
 {
     width: 10%;
-    border: 1px solid white;
+    display: flex;
 }
 
 #painel-player ul li:nth-child(3)
 {
     width: 15%;
-    border: 1px solid mediumblue;
     display: flex;
     justify-content: center;
 }
@@ -500,7 +497,7 @@ body
 {
     width: 15%;
     padding-left: 20px;
-    border: 1px solid sienna;
+    display: flex;
 }
 
 #painel-player h5
