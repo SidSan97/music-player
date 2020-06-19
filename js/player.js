@@ -1,5 +1,5 @@
 //Cria um array com o nome das músicas
-let musics = ["Sabotage - Canal foi tão bom.mp3", "Xxxtentacion - Look at me.mp3", "Ali Bomaye.mp3", "TOER - Build 7600.mp3", "DRE - Still.mp3"];
+let musics = ["Canal foi tão bom.mp3", "Look at me.mp3", "Ali Bomaye.mp3", "Build 7600.mp3", "Still.mp3"];
 
 //Cria um array com a capa das músicas
 let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns/Poster3.jpg", "foto-albuns/Poster4.jpg", "foto-albuns/Poster5.jpg"];

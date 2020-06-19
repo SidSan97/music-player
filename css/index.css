@@ -461,13 +461,63 @@ body
     margin-right: 1%;
 }
 
-#painel-player p
+#painel-player ul
 {
-    margin-top: 28px;
+    list-style: none; 
+    display: flex; 
+    border:black 1px solid; 
+    margin: 0; padding: 0; 
+    width: 100%;
+}
+
+#painel-player span
+{
+    width: 100%;
+}
+
+#painel-player ul li:first-child
+{
+    width: 30%; 
+    border: blue 1px solid; 
+    display: flex;
+}
+
+#painel-player ul li:nth-child(2)
+{
+    width: 10%;
+    border: 1px solid white;
+}
+
+#painel-player ul li:nth-child(3)
+{
+    width: 15%;
+    border: 1px solid mediumblue;
+    display: flex;
+    justify-content: center;
+}
+
+#painel-player ul li:nth-child(4)
+{
+    width: 15%;
+    padding-left: 20px;
+    border: 1px solid sienna;
+}
+
+#painel-player h5
+{
+    margin-top: 15px;
     margin-right: 2%;
     font-size: 20px;
     font-weight: 600;
     color: black;
+}
+
+#painel-player h6
+{
+    margin-right: 2%;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
 }
 
 #btn-shareSong
@@ -503,7 +553,8 @@ body
     border: none;
     padding: 1px;
     margin-top: 10px;
-    margin-right: 2%;
+    margin-right: 7%;
+    margin-left: 7%;
 }
 
 .btn_play i

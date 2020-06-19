@@ -300,18 +300,32 @@
     </div>
     
     <div id="painel-player">
-       <img id="bg" src="foto-albuns/Poster1.jpg"> <p id="songTitle"></p>
+        <ul>
+          <li>  
+            <img id="bg" src="foto-albuns/Poster1.jpg"> 
+            <span> 
+                <h5 id="songTitle"></h5> 
+                <h6>SABOTAGE</h6>
+            </span>
+          </li>
 
-       <button id="btn-shareSong"><i class="fas fa-share-alt"></i></button>
-       <button id="btn_repeat"><i class="fas fa-redo"></i></button>    
+          <li>
+            <button id="btn-shareSong"><i class="fas fa-share-alt"></i></button>
+            <button id="btn_repeat"><i class="fas fa-redo"></i></button>    
+          </li>
 
-      <input type="image" value="" onclick="previousSong()" src="assets/som-anterior.png" width="30px" height="30px" class="pass-song" id="prev">
-      <button class="btn_play" id="play" onclick="playOrPauseSong()">
-        <img src="Play1.png">
-      </button>
-      <input type="image" value="" onclick="nextSong()" src="assets/proximo-som.png" width="30px" height="30px" class="pass-song" id="next"> 
+          <li>
+            <input type="image" value="" onclick="previousSong()" src="assets/som-anterior.png" width="30px" height="30px" class="pass-song" id="prev">
+            <button class="btn_play" id="play" onclick="playOrPauseSong()">
+                <img src="Play1.png">
+            </button>
+            <input type="image" value="" onclick="nextSong()" src="assets/proximo-som.png" width="30px" height="30px" class="pass-song" id="next"> 
+          </li>
 
-        <div id="currentTime">00:00 / 00:00</div>  
+          <li>
+            <div id="currentTime">00:00 / 00:00</div>
+          </li>  
+     
     </div>
 
     <script src="src/howler.core.js"></script>
