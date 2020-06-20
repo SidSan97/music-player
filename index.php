@@ -326,8 +326,13 @@
 
           <li>
             <div id="currentTime">00:00 / 00:00</div>
-          </li>  
-     
+          </li>
+          
+          <div id="volume">
+            <button id="decrease" class="btnVol" onclick="decreaseVolume()">-</button>
+			<button id="volumeIcon" class="btnVol" onclick="mute()"><img src="Mute.png" width="90%"></button>
+			<button id="increase" class="btnVol" onclick="increaseVolume()">+</button>
+          </div>    
     </div>
 
     <script src="src/howler.core.js"></script>

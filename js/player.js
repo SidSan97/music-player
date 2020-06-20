@@ -115,7 +115,6 @@ function nextSong() {
   bgImg.src = poster[currentSong];
   bgImg2.src = poster[currentSong];
   posterSong.src = poster[currentSong];
-
 }
 
 function previousSong() {
@@ -204,7 +203,8 @@ function increaseVolume() {
 function mute() {
   //Verifica se o volume é maior que 0, caso verdade atribui o valor para 0
   if (song.volume > 0) {
-    song.volume = 0;
+      song.volume = 0;
+      
   }
 
   //Caso contrário o volume recebe o seu valor antes de ser mutado

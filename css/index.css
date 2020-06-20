@@ -495,9 +495,47 @@ body
 
 #painel-player ul li:nth-child(4)
 {
-    width: 15%;
+    width: 16%;
     padding-left: 20px;
     display: flex;
+}
+
+#painel-player ul li:nth-child(5)
+{
+    width: 16%;
+    padding-left: 20px;
+    display: flex;
+}
+
+#volume
+{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+}
+
+.btnVol
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    background-color: #00d8c9;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+}
+
+.btnVol:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1px;
+    /*border: 1px solid red;*/
 }
 
 #painel-player h5
@@ -594,7 +632,7 @@ body
     font-weight: 300;
     color: rgb(7, 7, 7);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.33);
-    margin-top: 15px;
+    margin-top: 22px;
 }
 
 .btn {
