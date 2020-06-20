@@ -204,11 +204,12 @@ function mute() {
   //Verifica se o volume é maior que 0, caso verdade atribui o valor para 0
   if (song.volume > 0) {
       song.volume = 0;
-      
+      document.getElementById('volumeIcon').style.background = '#dc3545';
   }
 
   //Caso contrário o volume recebe o seu valor antes de ser mutado
   else {
     song.volume = volume_now;
+    document.getElementById('volumeIcon').style.background = '#00d8c9';
   }	
 }

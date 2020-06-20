@@ -330,7 +330,7 @@
           
           <div id="volume">
             <button id="decrease" class="btnVol" onclick="decreaseVolume()">-</button>
-			<button id="volumeIcon" class="btnVol" onclick="mute()"><img src="Mute.png" width="90%"></button>
+			<button id="volumeIcon" onclick="mute()"><img src="Mute.png" width="90%"></button>
 			<button id="increase" class="btnVol" onclick="increaseVolume()">+</button>
           </div>    
     </div>

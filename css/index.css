@@ -524,14 +524,22 @@ body
     -webkit-border-radius: 60px;
     background-color: #00d8c9;
     border: none;
-    font-size: 15px;
+    font-size: 18px;
     color: white;
     font-weight: bold;
     padding: 0;
 }
 
-.btnVol:nth-child(2)
+#volumeIcon
 {
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    background-color: #00d8c9;
+    border: none;
+    padding: 0;
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 1px;
