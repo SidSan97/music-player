@@ -10,6 +10,7 @@ let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns
 let songTitle    = document.querySelector("#songTitle");
 let songTitle2   = document.querySelector("#songTitle2");
 let subSongTitle = document.querySelector("#subSongTitle");
+let artistSongMain = document.querySelector("#artistSongMain");
 
 let fillbar = document.querySelector("#fill");
 
@@ -35,6 +36,7 @@ function playSong() {
   songTitle.textContent = musics[currentSong].replace('.mp3', "");
   songTitle2.textContent = musics[currentSong].replace('.mp3', "");
   subSongTitle.textContent = artistis[currentSong];
+  artistSongMain.textContent = artistis[currentSong];
   //song.play();
   title_page.text = "Tocando agora - " + musics[currentSong];
 }

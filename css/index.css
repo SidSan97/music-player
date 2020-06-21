@@ -105,6 +105,15 @@ body
     font-weight: 500;
 }
 
+.artistSongMain
+{
+    margin-left: 320px;
+    margin-top: 485px;
+    position: absolute;
+    color: rgb(7, 6, 6);
+    font-weight: 500;
+}
+
 #grafico-musica
 {
     width: 100%;

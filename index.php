@@ -43,6 +43,7 @@
          <input class="input-principal" placeholder="O que você procura hoje?">
          <button type="submit" class="btnSearch-mainMenu"><i class="fas fa-search"></i></button>
          <h3 id="songTitle2" class="titleSongMain"></h3>
+         <p id="artistSongMain" class="artistSongMain"></p>
         <img src="assets/grafite.jpg" width="100%" height="520px">
      </section>
 
