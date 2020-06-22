@@ -333,6 +333,10 @@
             <button id="decrease" class="btnVol" onclick="decreaseVolume()">-</button>
 			<button id="volumeIcon" onclick="mute()"><img src="Mute.png" width="90%"></button>
 			<button id="increase" class="btnVol" onclick="increaseVolume()">+</button>
+          </div>
+
+          <div id="divBtnBuy">
+            <button class="btnBuyPainel"> <i class="fas fa-shopping-cart"> R$ 49,90</i></button>
           </div>    
     </div>
 

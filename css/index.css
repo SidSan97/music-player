@@ -518,7 +518,7 @@ body
 
 #volume
 {
-    width: 8%;
+    width: 14%;
     display: flex;
     justify-content: center;
     padding-top: 23px;
@@ -615,27 +615,6 @@ body
     color: #fff;
 }
 
-.btn_pause
-{
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    -moz-border-radius: 60px; 
-    -webkit-border-radius: 60px;
-    background-color: #00d8c9;
-    border: none;
-    padding: 1px;
-    margin-top: 8px;
-    margin-right: 2%;
-    display: none;
-}
-
-.btn_pause i
-{
-    font-size: 25px;
-    color: #fff;
-}
-
 .pass-song
 {
     margin-top: 25px;
@@ -664,4 +643,29 @@ body
 .btn:hover {
   opacity: 1;
 }
+
+#divBtnBuy
+{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    border-left: rgba(84, 84, 85, 0.767) 1px solid;
+}
+
+.btnBuyPainel
+{
+    background-color: #02050e;
+    color: white;
+    border: 2px solid #02050e;
+    height: 40px;
+    width: 122px;
+    font-weight: bolder;
+}
+
+.btnBuyPainel:hover
+{
+    border-color: #00d8c9;
+}
+
 
