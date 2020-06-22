@@ -312,7 +312,8 @@
 
           <li>
             <button id="btn-shareSong"><i class="fas fa-share-alt"></i></button>
-            <button id="btn_repeat"><i class="fas fa-redo"></i></button>    
+            <button id="btn_repeat"><i class="fas fa-redo"></i></button>
+            <button id="btn_listSong"><a href="#menu-musicas-playlist"><i class="fas fa-list"></i></a></button>   
           </li>
 
           <li>
@@ -331,7 +332,7 @@
           
           <div id="volume">
             <button id="decrease" class="btnVol" onclick="decreaseVolume()">-</button>
-			<button id="volumeIcon" onclick="mute()"><img src="Mute.png" width="90%"></button>
+			<button id="volumeIcon" onclick="mute()"><img src="Mute.png" width="100%"></button>
 			<button id="increase" class="btnVol" onclick="increaseVolume()">+</button>
           </div>
 
