@@ -80,7 +80,7 @@
                         <img src="foto-albuns/Poster1.jpg" width="44px" height="44px">
                         Sabotage - Canal foi tão bom
                     </article>
-                    <article>03:25</article>
+                    <article>03:37</article>
                     <article>Rap</article>
                     <article>
                         <i class="fas fa-share-alt"></i>
@@ -96,7 +96,7 @@
                         <img src="foto-albuns/Poster2.jpg" width="44px" height="44px">
                         Xxxtentacion - Look at me
                     </article>
-                    <article>03:25</article>
+                    <article>02:19</article>
                     <article>Hip-Hop</article>
                     <article>
                         <i class="fas fa-share-alt"></i>
@@ -112,7 +112,7 @@
                         <img src="foto-albuns/Poster3.jpg" width="44px" height="44px">
                         Ali Bomaye (Instrumental)
                     </article>
-                    <article>03:25</article>
+                    <article>05:32</article>
                     <article>Hip-Hop</article>
                     <article>
                         <i class="fas fa-share-alt"></i>
@@ -128,7 +128,7 @@
                         <img src="foto-albuns/Poster4.jpg" width="44px" height="44px">
                         TOER - Build 7600 
                     </article>
-                    <article>03:25</article>
+                    <article>05:06</article>
                     <article>Eletronica</article>
                     <article>
                         <i class="fas fa-share-alt"></i>
@@ -144,7 +144,7 @@
                         <img src="foto-albuns/Poster5.jpg" width="44px" height="44px">
                         DRE - Still
                     </article>
-                    <article>03:25</article>
+                    <article>04:30</article>
                     <article>Hip-Hop</article>
                     <article>
                         <i class="fas fa-share-alt"></i>

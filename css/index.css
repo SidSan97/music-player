@@ -491,6 +491,7 @@ body
 {
     width: 25%; 
     display: flex;
+    cursor: pointer;
 }
 
 #painel-player ul li:nth-child(2)
