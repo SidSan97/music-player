@@ -50,7 +50,7 @@
      <div class="quadrado-play"> 
         <img id="bg2" class="bg2" src="foto-albuns/Poster1.jpg">
        
-        <button  class="btn_play1" id="play2" onclick="playOrPauseSong()">
+        <button class="btn_play1" id="play2" onclick="playOrPauseSong()" style="outline: none;">
             <img src="Play.png" width="80px" height="80px">
         </button>
      </div>
@@ -319,7 +319,7 @@
           <li>
             <input type="image" value="" onclick="previousSong()" src="assets/som-anterior.png" width="30px" height="30px" class="pass-song" id="prev">
             
-            <button class="btn_play" id="play" onclick="playOrPauseSong()">
+            <button class="btn_play" id="play" onclick="playOrPauseSong()" style="outline: none;">
                 <img src="Play1.png">
             </button>
 
@@ -331,9 +331,9 @@
           </li>
           
           <div id="volume">
-            <button id="decrease" class="btnVol" onclick="decreaseVolume()">-</button>
-			<button id="volumeIcon" onclick="mute()"><img src="Mute.png" width="100%"></button>
-			<button id="increase" class="btnVol" onclick="increaseVolume()">+</button>
+            <button id="decrease" class="btnVol" onclick="decreaseVolume()" style="outline: none;">-</button>
+			<button id="volumeIcon" onclick="mute()" style="outline: none;"><img src="Mute.png" width="100%"></button>
+			<button id="increase" class="btnVol" onclick="increaseVolume()" style="outline: none;">+</button>
           </div>
 
           <div id="divBtnBuy">
