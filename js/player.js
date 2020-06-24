@@ -7,6 +7,7 @@ let artistis = ["SABOTAGE", "XXXTENTACION", "THE GAME", "TOER", "DRE"];
 //Cria um array com a capa das músicas
 let poster = ["foto-albuns/Poster1.jpg", "foto-albuns/Poster2.jpg", "foto-albuns/Poster3.jpg", "foto-albuns/Poster4.jpg", "foto-albuns/Poster5.jpg"];
 
+let listsong     = document.querySelectorAll("#song0, #song1");
 let songTitle    = document.querySelector("#songTitle");
 let songTitle2   = document.querySelector("#songTitle2");
 let subSongTitle = document.querySelector("#subSongTitle");
@@ -86,7 +87,6 @@ function convertTime(seconds) {
   currentTime.textContent = min + ":" + sec;
 
   totalTime(Math.round(song.duration));
-
 }
 
 function totalTime(seconds) {
