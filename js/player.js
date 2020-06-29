@@ -215,3 +215,6 @@ function mute() {
     document.getElementById('volumeIcon').style.background = '#00d8c9';
   }	
 }
+
+
+
