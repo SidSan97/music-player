@@ -123,7 +123,7 @@ body
     height: 135px;
     padding: 0;
     margin-bottom: 5%;
-    padding-top: 63px;
+    /*padding-top: 63px;*/
     overflow: hidden;
     background: #09c3e4;
     background: -moz-linear-gradient(-45deg, #09c3e4 0%, #70e6e6 100%);
@@ -172,14 +172,14 @@ body
     outline: none;
 }
 
-#waveform 
+/*#waveform 
 {
     width: 100%;
     height: 30%;
     position: absolute;
     left: 0;
-    /*margin-top: -250%;
-    margin: -15% auto;*/
+    margin-top: -250%;
+    margin: -15% auto;
     display: none;
     cursor: pointer;
     opacity: 0.8;
@@ -202,7 +202,7 @@ body
     background-color: rgba(0, 0, 0, 0.1);
     z-index: -1;
 }
-
+*/
 #menu-musicas-titulos li
 {
     color: rgb(68, 67, 67);

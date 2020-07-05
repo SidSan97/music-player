@@ -216,5 +216,16 @@ function mute() {
   }	
 }
 
+/*var wavesurfer = WaveSurfer.create({
+  container: '#waveform',
+  waveColor: 'green',
+  progressColor: 'purple'
+});
+
+wavesurfer.load(musics[currentSong]);
+*/
+
+
+
 
 
