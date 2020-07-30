@@ -39,6 +39,7 @@ function playSong() {
   subSongTitle.textContent = artistis[currentSong];
   artistSongMain.textContent = artistis[currentSong];
   //song.play();
+  window.requestAnimationFrame(draw);
   title_page.text = "Tocando agora - " + musics[currentSong];
 }
 
