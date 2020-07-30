@@ -621,7 +621,7 @@ body
 
 #currentTime
 {
-    font-size: 26px;
+    font-size: 24px;
     opacity: 0.9;
     font-weight: 300;
     color: rgb(7, 7, 7);
@@ -668,4 +668,35 @@ body
     border-color: #00d8c9;
 }
 
+@media(max-width: 992px)
+{
+    #divBtnBuy{display: none; width: 0px;}
 
+    #painel-player ul li:first-child {width: 30%;}
+
+    #painel-player ul li:nth-child(4){width: 25%;}
+}
+
+@media(max-width: 862px)
+{
+    #volume{visibility: hidden; width: 0px;}
+
+    #painel-player ul li:first-child {width: 50%;}
+
+    #painel-player ul li:nth-child(2){width: 33%;}
+
+    #painel-player ul li:nth-child(3){width: 26%;}
+
+    #painel-player ul li:nth-child(4){display: none;}
+}
+
+@media(max-width: 720px)
+{
+    #painel-player ul li:first-child {width: 55%;}
+
+    #painel-player ul li:nth-child(3){width: 41%;}
+
+    #painel-player ul li:nth-child(2){display: none;}
+
+    #painel-player h5{font-size: 15px;}
+}
