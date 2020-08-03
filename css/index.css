@@ -668,6 +668,7 @@ body
     border-color: #00d8c9;
 }
 
+/*Referente ao painel de controle das musicas*/
 @media(max-width: 992px)
 {
     #divBtnBuy{display: none; width: 0px;}
@@ -699,4 +700,15 @@ body
     #painel-player ul li:nth-child(2){display: none;}
 
     #painel-player h5{font-size: 15px;}
+}
+
+/*Referente a lista de musica*/
+@media(max-width: 992px)
+{
+    .duracao {display: none;}
+}
+
+@media(max-width:768px)
+{
+    .genero{display: none;}
 }
