@@ -181,15 +181,7 @@ body
     width: 90%;
 }
 
-#menu-musicas-titulos li article:first-child
-{
-    width: 31%;
-}
-
-#menu-musicas-titulos li article:nth-child(2)
-{
-    width: 18%;
-}
+.titulo{width: 31%;}
 
 #menu-musicas-titulos li article:nth-child(3)
 {
@@ -224,16 +216,8 @@ body
     width: 90%;
 }
 
-#menu-musicas-playlist li article:first-child
-{
-    width: 32%;
-}
-
-#menu-musicas-playlist li article:nth-child(2)
-{
-    width: 18%;
-    padding-top: 12px;
-}
+.tituloMusica{width: 32%;}
+.duracao {width: 18%;}
 
 #menu-musicas-playlist li article:nth-child(3)
 {
@@ -703,12 +687,25 @@ body
 }
 
 /*Referente a lista de musica*/
+
 @media(max-width: 992px)
 {
     .duracao {display: none;}
+    .tituloMusica{width: 50%;}
+    .titulo{width: 50%;}
 }
 
 @media(max-width:768px)
 {
     .genero{display: none;}
+    .tituloMusica{width: 70%;}
+    .titulo{width: 70%;}
+}
+
+@media(max-width:530px)
+{
+    #menu-musicas-playlist li article i:nth-child(2)
+    {
+        display: none;
+    }
 }
