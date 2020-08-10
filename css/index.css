@@ -181,18 +181,10 @@ body
     width: 90%;
 }
 
-.titulo{width: 31%;}
-
-#menu-musicas-titulos li article:nth-child(3)
-{
-    width: 20%;
-}
-
-#menu-musicas-titulos li article:nth-child(4)
-{
-    width: 20%;
-    text-align: center;
-}
+.titulo  {width: 31%;}
+.duracao {width: 18%;}
+.genero  {width: 20%;} 
+.opcoes  {width: 20%; text-align: center;}
 
 #menu-musicas-playlist
 {
@@ -216,21 +208,10 @@ body
     width: 90%;
 }
 
-.tituloMusica{width: 32%;}
-.duracao {width: 18%;}
-
-#menu-musicas-playlist li article:nth-child(3)
-{
-    width: 20%;
-    padding-top: 12px;
-}
-
-#menu-musicas-playlist li article:nth-child(4)
-{
-    width: 30%;
-    padding-top: 5px;
-    text-align: right;
-}
+.tituloMusica {width: 32%;}
+.subDuracao   {width: 18%; margin-top: 11px;}
+.subGenero    {width: 20%; padding-top: 12px;}
+.subOpcoes    {width: 30%; padding-top: 5px; text-align: right;}
 
 #menu-musicas-playlist li article i:nth-child(2)
 {
@@ -691,6 +672,7 @@ body
 @media(max-width: 992px)
 {
     .duracao {display: none;}
+    .subDuracao{display: none;}
     .tituloMusica{width: 50%;}
     .titulo{width: 50%;}
 }
@@ -698,6 +680,7 @@ body
 @media(max-width:768px)
 {
     .genero{display: none;}
+    .subGenero{display: none;}
     .tituloMusica{width: 70%;}
     .titulo{width: 70%;}
 }
