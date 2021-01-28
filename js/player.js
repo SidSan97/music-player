@@ -34,6 +34,8 @@ let volume_now = song.volume;
 
 function playSong() {
   song.src = musics[currentSong];
+  bgImg.src = poster[currentSong];
+  bgImg2.src = poster[currentSong];
   songTitle.textContent = musics[currentSong].replace('.mp3', "");
   songTitle2.textContent = musics[currentSong].replace('.mp3', "");
   subSongTitle.textContent = artistis[currentSong];
