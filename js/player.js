@@ -219,6 +219,15 @@ function mute() {
   }	
 }
 
+$(document).ready(function() {
+    //Sobe
+  $('#play2').click(function(){
+    event.preventDefault();
+    $('#painel-player').css('bottom','10px');
+    $('#seek-bar').css('bottom','90px');
+  });
+});
+
 /*var wavesurfer = WaveSurfer.create({
   container: '#waveform',
   waveColor: 'green',
