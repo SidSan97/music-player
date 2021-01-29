@@ -371,8 +371,6 @@ body
     background-color: gray;
     display: flex;
     border-radius: 0px;
-   /* margin-left: 0%;
-    margin-bottom: 0px;*/
     margin-top: 0px;
     cursor: pointer;
     z-index: 99;
@@ -416,11 +414,6 @@ body
     width: 100%;
     height: 80px;
     display: flex;
-    /*visibility: visible;*/
-
-    /*padding: 25px;*/
-    /*width: 90%;*/
-    /*border: 1px solid pink;*/
     position: fixed;
     left: 50%;
     bottom: -140px;
