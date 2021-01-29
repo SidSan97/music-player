@@ -371,11 +371,21 @@ body
     background-color: gray;
     display: flex;
     border-radius: 0px;
-    margin-left: 0%;
-    margin-bottom: 0px;
+   /* margin-left: 0%;
+    margin-bottom: 0px;*/
     margin-top: 0px;
     cursor: pointer;
     z-index: 99;
+
+    position: fixed;
+    left: 50%;
+    bottom: -140px;
+    transform: translateX(-50%);
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s; 
 }
 
 #fill
@@ -401,12 +411,25 @@ body
 
 #painel-player
 {
-    position: absolute;
+    /*position: absolute;*/
     background-color: rgb(224, 224, 224);
     width: 100%;
     height: 80px;
     display: flex;
-    visibility: visible;
+    /*visibility: visible;*/
+
+    /*padding: 25px;*/
+    /*width: 90%;*/
+    /*border: 1px solid pink;*/
+    position: fixed;
+    left: 50%;
+    bottom: -140px;
+    transform: translateX(-50%);
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s; 
 }
 
 #bg
