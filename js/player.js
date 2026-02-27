@@ -1,3 +1,6 @@
+// Diretório base das músicas (dentro do projeto)
+const SONGS_PATH = "songs/";
+
 //Cria um array com o nome das músicas
 let musics = ["Canal foi tão bom.mp3", "Look at me.mp3", "Ali Bomaye.mp3", "Build 7600.mp3", "Still.mp3"];
 
@@ -20,6 +23,13 @@ let currentTime = document.querySelector("#currentTime");
 let song = new Audio();
 let currentSong = 0;
 
+// Variáveis do visualizador de barras
+let audioContext = null;
+let analyser = null;
+let dataArray = null;
+let bufferLength = 0;
+let animationId = null;
+
 let title_page = document.getElementsByTagName("title")[0];
 let iconePlay = document.querySelector("#play2 img");
 let iconePlay1 = document.querySelector("#play img");
@@ -32,8 +42,64 @@ window.onload = playSong;
 //Pega o volume atual e armazena
 let volume_now = song.volume;
 
+function setupAudioAnalyser() {
+  if (audioContext) return;
+  audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  let source = audioContext.createMediaElementSource(song);
+  analyser = audioContext.createAnalyser();
+  analyser.fftSize = 256;
+  analyser.smoothingTimeConstant = 0.8;
+  bufferLength = analyser.frequencyBinCount;
+  dataArray = new Uint8Array(bufferLength);
+  source.connect(analyser);
+  analyser.connect(audioContext.destination);
+}
+
+function draw() {
+  if (!analyser || song.paused) return;
+  animationId = requestAnimationFrame(draw);
+  let canvas = document.getElementById("canvas");
+  let ctx = canvas.getContext("2d");
+  if (canvas.width !== canvas.offsetWidth || canvas.height !== canvas.offsetHeight) {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+  }
+  analyser.getByteFrequencyData(dataArray);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  let barCount = 64;
+  let barWidth = (canvas.width / barCount) - 2;
+  let gap = 2;
+  for (let i = 0; i < barCount; i++) {
+    let barIndex = Math.floor((i / barCount) * bufferLength);
+    let barHeight = Math.max(2, (dataArray[barIndex] / 255) * (canvas.height * 0.85));
+    let x = i * (barWidth + gap) + gap;
+    let y = canvas.height - barHeight;
+    ctx.fillStyle = "rgba(255, 255, 255, 0.85)";
+    ctx.fillRect(x, y, barWidth, barHeight);
+  }
+}
+
+function startVisualizer() {
+  setupAudioAnalyser();
+  if (audioContext.state === "suspended") audioContext.resume();
+  draw();
+}
+
+function stopVisualizer() {
+  if (animationId) {
+    cancelAnimationFrame(animationId);
+    animationId = null;
+  }
+  let canvas = document.getElementById("canvas");
+  if (canvas && canvas.getContext) {
+    let ctx = canvas.getContext("2d");
+    if (ctx) ctx.clearRect(0, 0, canvas.width, canvas.height);
+  }
+}
+
 function playSong() {
-  song.src = musics[currentSong];
+  song.crossOrigin = "anonymous";
+  song.src = SONGS_PATH + musics[currentSong];
   bgImg.src = poster[currentSong];
   bgImg2.src = poster[currentSong];
   songTitle.textContent = musics[currentSong].replace('.mp3', "");
@@ -41,7 +107,8 @@ function playSong() {
   subSongTitle.textContent = artistis[currentSong];
   artistSongMain.textContent = artistis[currentSong];
   //song.play();
-  window.requestAnimationFrame(draw);
+  if (!song.paused) startVisualizer();
+  else stopVisualizer();
   title_page.text = "Tocando agora - " + musics[currentSong];
 }
 
@@ -52,6 +119,7 @@ function playOrPauseSong() {
     song.play();
     iconePlay.src = "Pause.png";
     iconePlay1.src = "Pause1.png";
+    startVisualizer();
     console.log("Música tocando");
   }
 
@@ -61,6 +129,7 @@ function playOrPauseSong() {
     song.pause();
     iconePlay.src = "Play.png";
     iconePlay1.src = "Play1.png";
+    stopVisualizer();
     console.log("Música pausada");
   }
 }
@@ -103,7 +172,8 @@ function totalTime(seconds) {
 
 function nextSong() {
   console.log("Próxima música...")
-//Incrementa o valor da música atual
+  stopVisualizer();
+  //Incrementa o valor da música atual
   currentSong++;
 
   //Verifica se a música atual é maior do que o número de dados do array - 1
@@ -124,6 +194,7 @@ function nextSong() {
 
 function previousSong() {
   console.log("Música anterior...");
+  stopVisualizer();
   //Decrementa o valor da música atual
   currentSong--;
 
@@ -236,7 +307,6 @@ $(document).ready(function() {
 
 wavesurfer.load(musics[currentSong]);
 */
-
 
 
 
